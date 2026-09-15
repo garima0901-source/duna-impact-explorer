@@ -1,6 +1,6 @@
 # Duna Impact Explorer
 
-**Live:** _add the Vercel URL here after deploying_
+**Live:** https://duna-impact-explorer.vercel.app
 
 ## What this is
 
