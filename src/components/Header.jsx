@@ -1,7 +1,7 @@
 const TABS = [
   { id: 'calculator', label: 'Impact Calculator' },
   { id: 'customers', label: 'Customer Proof' },
-  { id: 'eudi', label: 'EUDI Countdown' },
+  { id: 'map', label: 'Regulatory Map' },
 ]
 
 export default function Header({ active, onChange }) {

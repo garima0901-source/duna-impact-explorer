@@ -72,37 +72,123 @@
       "lastVerified": "2026-09-15"
     }
   ],
-  "eudi": {
+  "regulatory": {
     "regulationName": "Regulation (EU) 2024/1183 (“eIDAS 2.0”)",
     "inForceDate": "2024-05-20",
-    "memberStateDeadline": "2026-12-24",
-    "privateSectorDeadline": "2027-12-24",
+    "deadlines": [
+      {
+        "id": "eu-member-state",
+        "date": "2026-12-24",
+        "title": "EU member states must offer a certified EUDI Wallet",
+        "description": "All 27 EU member states must make at least one certified EUDI Wallet available to citizens and businesses.",
+        "source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1183",
+        "sourceLabel": "eur-lex.europa.eu — Regulation (EU) 2024/1183"
+      },
+      {
+        "id": "eu-private-sector",
+        "date": "2027-12-24",
+        "title": "Regulated private sector must accept the EUDI Wallet",
+        "description": "Banks and large online platforms must accept the EUDI Wallet for authentication.",
+        "source": "https://www.eadtrust.eu/en/blog/december-2026-deadline-eudi-wallet/",
+        "sourceLabel": "eadtrust.eu"
+      },
+      {
+        "id": "germany-national-launch",
+        "date": "2027-01-02",
+        "title": "Germany's national wallet (\"d-you\") targeted launch",
+        "description": "Germany's state-driven EUDI Wallet, branded \"d-you\", is targeted to launch nine days after the EU-wide deadline.",
+        "source": "https://idtechwire.com/germany-names-eudi-wallet-d-you-and-sets-january-2027-launch/",
+        "sourceLabel": "ID Tech Wire"
+      }
+    ],
     "notes": [
       {
         "text": "EEA-EFTA states (Iceland, Liechtenstein, Norway) have a one-year extension.",
         "source": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch",
         "sourceLabel": "signicat.com"
-      },
-      {
-        "text": "Germany has separately targeted 2 January 2027 for its national wallet (“d-you”) rollout.",
-        "source": "https://idtechwire.com/germany-names-eudi-wallet-d-you-and-sets-january-2027-launch/",
-        "sourceLabel": "ID Tech Wire"
       }
     ],
     "sources": [
+      { "label": "eur-lex.europa.eu — Regulation (EU) 2024/1183", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1183" },
+      { "label": "gataca.io — eIDAS 2.0 & EUDI Wallet Timeline", "url": "https://www.gataca.io/resources/blog/eIDAS2-timeline/" },
+      { "label": "signicat.com — EUDI Wallets: only one year to launch", "url": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch" }
+    ],
+    "lastVerified": "2026-09-15",
+    "spotlightCountries": [
       {
-        "label": "eur-lex.europa.eu — Regulation (EU) 2024/1183",
-        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1183"
+        "code": "NL",
+        "name": "Netherlands",
+        "headline": "Public NL Wallet in development — delay risk flagged",
+        "detail": "A public NL Wallet is in active development with public testing underway. Independent analysis suggests an initial release may not satisfy the full requirement set by the EU deadline, with a fuller version possibly landing sometime in 2027.",
+        "source": "https://www.namirial.com/en/blog/stories/status-check-eudi-wallet/",
+        "sourceLabel": "namirial.com — EUDI Wallet: how prepared are the various EU countries?",
+        "lastVerified": "2026-09-15"
       },
       {
-        "label": "gataca.io — eIDAS 2.0 & EUDI Wallet Timeline",
-        "url": "https://www.gataca.io/resources/blog/eIDAS2-timeline/"
+        "code": "DE",
+        "name": "Germany",
+        "headline": "Targeting national wallet launch 2 January 2027",
+        "detail": "Germany's state-driven wallet, \"d-you\", is set to launch nine days after the EU-wide deadline, with around 40 partners from business, government, and academia providing services at launch.",
+        "source": "https://idtechwire.com/germany-names-eudi-wallet-d-you-and-sets-january-2027-launch/",
+        "sourceLabel": "ID Tech Wire — Germany Names EUDI Wallet \"d-you\"",
+        "lastVerified": "2026-09-15"
       },
       {
-        "label": "signicat.com — EUDI Wallets: only one year to launch",
-        "url": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch"
+        "code": "FR",
+        "name": "France",
+        "headline": "Early pilot: \"France Identité\"",
+        "detail": "France Identité is already a live production service, expanding its functionality and ecosystem integration as it becomes an official EUDI Wallet, and has started initial tests with relying parties.",
+        "source": "https://www.namirial.com/en/blog/stories/status-check-eudi-wallet/",
+        "sourceLabel": "namirial.com — EUDI Wallet: how prepared are the various EU countries?",
+        "lastVerified": "2026-09-15"
+      },
+      {
+        "code": "AT",
+        "name": "Austria",
+        "headline": "Early pilot: \"eAusweise\"",
+        "detail": "Austria benefits from the combination of ID Austria and eAusweise, giving the country an already-functioning mobile credential system to build the EUDI Wallet on top of.",
+        "source": "https://www.namirial.com/en/blog/stories/status-check-eudi-wallet/",
+        "sourceLabel": "namirial.com — EUDI Wallet: how prepared are the various EU countries?",
+        "lastVerified": "2026-09-15"
+      },
+      {
+        "code": "IT",
+        "name": "Italy",
+        "headline": "Early pilot: \"IT-Wallet\"",
+        "detail": "The IT-Wallet is explicitly designed as a national wallet system, letting citizens access it using existing CIE or SPID credentials — built on already-established national identity infrastructure.",
+        "source": "https://www.namirial.com/en/blog/stories/status-check-eudi-wallet/",
+        "sourceLabel": "namirial.com — EUDI Wallet: how prepared are the various EU countries?",
+        "lastVerified": "2026-09-15"
+      },
+      {
+        "code": "PL",
+        "name": "Poland",
+        "headline": "Integrating into mObywatel — version migration risk",
+        "detail": "Poland has paired a substantial installed base — mObywatel 2.0 has almost 10 million users — with a public commitment to integrate the EUDI Wallet by end of 2026. The transition to version 3.0 could cause significant delays.",
+        "source": "https://www.namirial.com/en/blog/stories/status-check-eudi-wallet/",
+        "sourceLabel": "namirial.com — EUDI Wallet: how prepared are the various EU countries?",
+        "lastVerified": "2026-09-15"
       }
     ],
-    "lastVerified": "2026-09-15"
+    "uk": {
+      "name": "United Kingdom",
+      "code": "GB",
+      "headline": "ECCTA identity verification — most directors and PSCs still unverified",
+      "detail": "By the end of June 2026, only 55% of directors, 50% of LLP members, and 42% of people with significant control (PSCs) had informed Companies House of their verified identity, under the Economic Crime and Corporate Transparency Act.",
+      "stats": { "directorsVerifiedPct": 55, "llpMembersVerifiedPct": 50, "pscsVerifiedPct": 42 },
+      "asOf": "2026-06-30",
+      "source": "https://pkf-francisclark.co.uk/insights/companies-house-identity-verification/",
+      "sourceLabel": "PKF Francis Clark, citing Companies House management information (published 11 Aug 2026)",
+      "lastVerified": "2026-09-15"
+    },
+    "us": {
+      "name": "United States",
+      "headline": "Meanwhile, in the US: BOI reporting rolled back",
+      "detail": "FinCEN permanently removed Beneficial Ownership Information (BOI) reporting requirements for US companies and US persons, effective 14 August 2026. Only foreign reporting companies are still required to report.",
+      "effectiveDate": "2026-08-14",
+      "source": "https://www.fincen.gov/news/news-releases/fincen-permanently-ends-beneficial-ownership-reporting-requirements-millions",
+      "sourceLabel": "FinCEN.gov — news release",
+      "lastVerified": "2026-09-15"
+    }
   }
 }

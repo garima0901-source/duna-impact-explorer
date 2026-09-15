@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import ImpactCalculator from './components/ImpactCalculator'
 import CustomerExplorer from './components/CustomerExplorer'
-import EudiCountdown from './components/EudiCountdown'
+import RegulatoryMap from './components/RegulatoryMap'
 
 function App() {
   const [tab, setTab] = useState('calculator')
@@ -37,7 +37,7 @@ function App() {
           <>
             {tab === 'calculator' && <ImpactCalculator stats={data.stats} />}
             {tab === 'customers' && <CustomerExplorer customers={data.customers} />}
-            {tab === 'eudi' && <EudiCountdown eudi={data.eudi} />}
+            {tab === 'map' && <RegulatoryMap regulatory={data.regulatory} />}
           </>
         )}
       </main>
