@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
 import SourceNote from './SourceNote'
+import AddToCalendarButton from './AddToCalendarButton'
 import { EU_27_NUMERIC_TO_CODE, UK_NUMERIC, SPOTLIGHT_CODES } from '../data/europeCountries'
 
 const GEO_URL = '/geo/countries-50m.json'
@@ -64,18 +65,30 @@ export default function RegulatoryMap({ regulatory }) {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-3">
-        {regulatory.deadlines.slice(0, 2).map((d) => (
+        {regulatory.deadlines.map((d) => (
           <div
             key={d.id}
-            className="rounded-2xl border border-line bg-ink p-5 text-paper lg:col-span-1"
+            className="flex flex-col justify-between rounded-2xl border border-line bg-ink p-5 text-paper lg:col-span-1"
           >
-            <div className="text-xs font-medium uppercase tracking-wide text-paper/50">
-              {d.title}
+            <div>
+              <div className="text-xs font-medium uppercase tracking-wide text-paper/50">
+                {d.title}
+              </div>
+              <div className="mt-1 text-xl font-semibold">{formatDate(d.date)}</div>
+              <p className="mt-2 text-sm leading-relaxed text-paper/60">
+                {d.description}
+              </p>
             </div>
-            <div className="mt-1 text-xl font-semibold">{formatDate(d.date)}</div>
-            <p className="mt-2 text-sm leading-relaxed text-paper/60">
-              {d.description}
-            </p>
+            <AddToCalendarButton
+              className="mt-4 self-start"
+              deadline={{
+                id: d.id,
+                title: d.title,
+                date: d.date,
+                description: d.description,
+                sourceUrl: d.source,
+              }}
+            />
           </div>
         ))}
       </div>
