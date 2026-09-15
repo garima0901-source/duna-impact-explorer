@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "fasterOnboarding": 10.6,
+    "analystEfficiency": 4.8,
+    "conversionMultiplier": 1.37,
+    "source": "https://duna.com/",
+    "sourceLabel": "duna.com (homepage)",
+    "lastVerified": "2026-09-15"
+  },
+  "customers": [
+    {
+      "company": "Moss",
+      "industry": "Financial Technology",
+      "quote": "Compliance is mission-critical, but not our core business. Duna's low-code platform enables great onboarding experiences across all the countries we operate in.",
+      "attribution": "Ante Spittler, CEO, Moss",
+      "source": "https://duna.com/",
+      "sourceLabel": "duna.com homepage testimonial",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "company": "Plaid",
+      "industry": "Financial Technology",
+      "quote": null,
+      "attribution": "Named customer",
+      "source": "https://duna.com/",
+      "sourceLabel": "duna.com meta description; confirmed in Series A and seed press coverage",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "company": "CCV (Fiserv)",
+      "industry": "Financial Technology",
+      "quote": null,
+      "attribution": "Named customer",
+      "source": "https://fintech.global/2026/02/06/business-identity-platform-duna-bags-e30m-funding-round/",
+      "sourceLabel": "fintech.global, Series A coverage (Feb 5, 2026): “Customers include Plaid, Fiserv subsidiary CCV, Moss, Bol and SVEA Bank.”",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "company": "SVEA Bank",
+      "industry": "Banking",
+      "quote": null,
+      "attribution": "Named customer",
+      "source": "https://fintech.global/2026/02/06/business-identity-platform-duna-bags-e30m-funding-round/",
+      "sourceLabel": "fintech.global, Series A coverage (Feb 5, 2026)",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "company": "Sequra",
+      "industry": "Platforms",
+      "quote": null,
+      "attribution": "Named customer",
+      "source": "https://www.biometricupdate.com/202505/business-identity-startup-duna-raises-12m",
+      "sourceLabel": "Biometric Update, seed round coverage (May 7, 2025): “Spanish e-commerce payment firm Sequra”",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "company": "Bol",
+      "industry": "Platforms",
+      "quote": null,
+      "attribution": "Named customer",
+      "source": "https://www.biometricupdate.com/202505/business-identity-startup-duna-raises-12m",
+      "sourceLabel": "duna.com meta description; confirmed in Biometric Update seed coverage (May 7, 2025)",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "company": "Brand New Day Bank",
+      "industry": "Banking",
+      "quote": null,
+      "attribution": "Named customer",
+      "source": "https://www.biometricupdate.com/202505/business-identity-startup-duna-raises-12m",
+      "sourceLabel": "Biometric Update, seed round coverage (May 7, 2025)",
+      "lastVerified": "2026-09-15"
+    }
+  ],
+  "eudi": {
+    "regulationName": "Regulation (EU) 2024/1183 (“eIDAS 2.0”)",
+    "inForceDate": "2024-05-20",
+    "memberStateDeadline": "2026-12-24",
+    "privateSectorDeadline": "2027-12-24",
+    "notes": [
+      {
+        "text": "EEA-EFTA states (Iceland, Liechtenstein, Norway) have a one-year extension.",
+        "source": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch",
+        "sourceLabel": "signicat.com"
+      },
+      {
+        "text": "Germany has separately targeted 2 January 2027 for its national wallet (“d-you”) rollout.",
+        "source": "https://idtechwire.com/germany-names-eudi-wallet-d-you-and-sets-january-2027-launch/",
+        "sourceLabel": "ID Tech Wire"
+      }
+    ],
+    "sources": [
+      {
+        "label": "eur-lex.europa.eu — Regulation (EU) 2024/1183",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1183"
+      },
+      {
+        "label": "gataca.io — eIDAS 2.0 & EUDI Wallet Timeline",
+        "url": "https://www.gataca.io/resources/blog/eIDAS2-timeline/"
+      },
+      {
+        "label": "signicat.com — EUDI Wallets: only one year to launch",
+        "url": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch"
+      }
+    ],
+    "lastVerified": "2026-09-15"
+  }
+}
