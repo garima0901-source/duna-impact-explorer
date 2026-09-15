@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import ImpactCalculator from './components/ImpactCalculator'
 import CustomerExplorer from './components/CustomerExplorer'
 import RegulatoryMap from './components/RegulatoryMap'
+import Glossary from './components/Glossary'
 
 function App() {
   const [tab, setTab] = useState('calculator')
@@ -42,6 +43,7 @@ function App() {
         )}
       </main>
 
+      <Glossary />
       <Footer />
     </div>
   )
