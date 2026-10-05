@@ -1,12 +1,12 @@
 {
   "version": "1.1.0",
   "stats": {
-    "fasterOnboarding": 10.6,
+    "fasterOnboarding": 16,
     "analystEfficiency": 4.8,
     "conversionMultiplier": 1.37,
     "source": "https://duna.com/",
     "sourceLabel": "duna.com (homepage)",
-    "lastVerified": "2026-09-15"
+    "lastVerified": "2026-10-05"
   },
   "customers": [
     {
@@ -110,9 +110,18 @@
       }
     ],
     "sources": [
-      { "label": "eur-lex.europa.eu — Regulation (EU) 2024/1183", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1183" },
-      { "label": "gataca.io — eIDAS 2.0 & EUDI Wallet Timeline", "url": "https://www.gataca.io/resources/blog/eIDAS2-timeline/" },
-      { "label": "signicat.com — EUDI Wallets: only one year to launch", "url": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch" }
+      {
+        "label": "eur-lex.europa.eu — Regulation (EU) 2024/1183",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1183"
+      },
+      {
+        "label": "gataca.io — eIDAS 2.0 & EUDI Wallet Timeline",
+        "url": "https://www.gataca.io/resources/blog/eIDAS2-timeline/"
+      },
+      {
+        "label": "signicat.com — EUDI Wallets: only one year to launch",
+        "url": "https://www.signicat.com/blog/eudi-wallets-only-one-year-to-launch"
+      }
     ],
     "lastVerified": "2026-09-15",
     "spotlightCountries": [
@@ -176,7 +185,11 @@
       "code": "GB",
       "headline": "ECCTA identity verification — most directors and PSCs still unverified",
       "detail": "By the end of June 2026, only 55% of directors, 50% of LLP members, and 42% of people with significant control (PSCs) had informed Companies House of their verified identity, under the Economic Crime and Corporate Transparency Act.",
-      "stats": { "directorsVerifiedPct": 55, "llpMembersVerifiedPct": 50, "pscsVerifiedPct": 42 },
+      "stats": {
+        "directorsVerifiedPct": 55,
+        "llpMembersVerifiedPct": 50,
+        "pscsVerifiedPct": 42
+      },
       "asOf": "2026-06-30",
       "source": "https://pkf-francisclark.co.uk/insights/companies-house-identity-verification/",
       "sourceLabel": "PKF Francis Clark, citing Companies House management information (published 11 Aug 2026)",
