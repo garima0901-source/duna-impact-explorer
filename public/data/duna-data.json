@@ -1,12 +1,12 @@
 {
   "version": "1.1.0",
   "stats": {
-    "fasterOnboarding": 16.3,
+    "fasterOnboarding": 10.6,
     "analystEfficiency": 4.8,
     "conversionMultiplier": 1.37,
     "source": "https://duna.com/",
     "sourceLabel": "duna.com (homepage)",
-    "lastVerified": "2026-11-02"
+    "lastVerified": "2026-11-09"
   },
   "customers": [
     {
